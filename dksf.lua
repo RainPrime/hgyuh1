@@ -577,7 +577,7 @@ function library:Evil(text,text2,logo)
 	Logo.Position = UDim2.new(0, 10, 0, 10)
 	Logo.Size = UDim2.new(0, 30, 0, 30)
 	Logo.ImageTransparency = 0
-	Logo.Image = "rbxassetid://"..(logo or 13732317842)
+	Logo.Image = "rbxassetid://117690494697166"..(logo or 13732317842)
 
 	Title.Name = "Title"
 	Title.Parent = Main
@@ -2050,7 +2050,7 @@ local Mouse = LocalPlayer:GetMouse()
 local GuiService = game:GetService("GuiService")
 local SoundClick2 = Instance.new("Sound")
 SoundClick2.Name = "Sound Effect"
-SoundClick2.SoundId = "rbxassetid://3398620867"
+SoundClick2.SoundId = "rbxassetid://117690494697166"
 SoundClick2.Volume = 1
 SoundClick2.Parent = game.Workspace
 local UIStroke = Instance.new("UIStroke")
